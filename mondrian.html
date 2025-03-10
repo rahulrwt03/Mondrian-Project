@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modarian-project</title>
+    <style>
+        .main-container{
+            background-color: black;
+            height: 100vh;
+            width: 748px;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 320px 1fr 1fr auto;
+            grid-template-rows: 414px 1fr 1fr 20px;
+
+        }
+        .item{
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+        
+        .first{background-color: red;}
+
+        .second{
+            background-color: #f5f5f5;
+            grid-column: span 3;
+        }
+        .third{
+            background-color: #f5f5f5;
+            grid-row: span 2;
+        }
+        .fourth{
+            background-color: #f5f5f5;
+            grid-row: span 2;
+            grid-column: span 2;
+        }
+        .fifth{
+            background-color: blue;
+            height: 130px;
+            width: 50px;
+        }
+        .sixth{
+            width: 50px;
+            background-color: #f5f5f5;
+            grid-row: span 2;
+        }
+        .seventh{
+            background-color: #f5f5f5;
+        }
+        .eighth{
+            background-color: yellow;
+            width: 198px;
+        }
+        .ninth{background-color: #4b4747;
+        width: 153px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="item first"></div>
+        <div class="item second"></div>
+
+        <div class="item third"></div>
+        <div class="item fourth"></div>
+        <div class="item fifth"></div>
+
+        <div class="item sixth"></div>
+        <div class="item seventh"></div>
+        <div class="item eighth"></div>
+        <div class="item ninth"></div>
+    </div>
+</body>
+</html>
